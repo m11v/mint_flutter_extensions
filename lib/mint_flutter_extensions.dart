@@ -1,7 +1,3 @@
 library mint_flutter_extensions;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/build_context_colors_extensions.dart';
