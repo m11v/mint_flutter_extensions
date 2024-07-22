@@ -17,7 +17,7 @@ Or adding the dependency in the `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  mint_flutter_extensions: ^0.0.1 # Use the latest version from pub.dev
+  mint_flutter_extensions: ^0.0.2 # Use the latest version from pub.dev
 ```
 ## Get Started
 In your Dart code, you can import the extensions:
