@@ -2,6 +2,8 @@
 
 [![Dart CI](https://github.com/m11v/mint_flutter_extensions/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/m11v/mint_flutter_extensions)
 [![License](https://img.shields.io/github/license/m11v/mint_flutter_extensions)](https://github.com/m11v/mint_flutter_extensions/blob/main/LICENSE)
+[![Pub](https://img.shields.io/pub/v/mint_flutter_extensions?label=Pub)](https://pub.dev/packages/mint_flutter_extensions)
+[![Package publisher](https://img.shields.io/pub/publisher/mint_flutter_extensions.svg)](https://pub.dev/packages/mint_flutter_extensions/publisher)
 
 A set of Flutter extensions to code happier.
 
