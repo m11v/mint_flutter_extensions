@@ -5,7 +5,7 @@
 [![Pub](https://img.shields.io/pub/v/mint_flutter_extensions?label=Pub)](https://pub.dev/packages/mint_flutter_extensions)
 [![Package publisher](https://img.shields.io/pub/publisher/mint_flutter_extensions.svg)](https://pub.dev/packages/mint_flutter_extensions/publisher)
 
-A set of Flutter extensions to code happier.
+Speed up your Flutter development process by reducing boilerplate code with easy-to-use extensions.
 
 ## Installation
 Install using the Terminal:
