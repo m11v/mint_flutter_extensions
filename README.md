@@ -26,11 +26,10 @@ import 'package:mint_flutter_extensions/mint_flutter_extensions.dart';
 ```
 ## Usage
 ### Colors
-To get the `colorScheme` from the `BuildContext` use:
+To get the `colorScheme` from the `BuildContext`, use:
 ```dart
 context.colorScheme
 ```
-
 To get the primary color, use:
 ```dart
 context.primaryColor
@@ -54,4 +53,54 @@ The available colors are:
  * onErrorContainerColor
  * surfaceColor
  * onSurfaceColor
-
+### TextStyles
+To get the `textTheme` from the `BuildContext`, use:
+```dart
+context.textTheme
+```
+To get the H1 text style, use:
+```dart
+context.h1
+```
+The available text styles are:
+* displayLarge
+* displayMedium
+* displaySmall
+* headlineLarge
+* headlineMedium
+* headlineSmall
+* titleLarge
+* titleMedium
+* titleSmall
+* bodyLarge
+* bodyMedium
+* bodySmall
+* labelLarge
+* labelMedium
+* labelSmall
+* h1
+* h2
+* h3
+* h4
+* h5
+* h6
+* subtitle1
+* subtitle2
+* body1
+* body2
+* caption
+* button
+* overline
+### TextStyle Properties
+To apply the `bold` style from the `TextStyle`, use:
+```dart
+textStyle.bold
+```
+The available styles are:
+* italic
+* bold
+* underline
+* overline
+* lineThrough
+* normal
+* tint(Color color, [ bool tintDecoration = true, ])

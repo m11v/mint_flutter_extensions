@@ -5,3 +5,8 @@
 ## 0.0.2
 
 * Update README.
+
+## 0.1.0
+
+* Add extensions to get textStyles of textTheme from BuildContext.
+* Add extensions to change textStyles.
