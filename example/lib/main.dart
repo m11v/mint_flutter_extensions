@@ -17,6 +17,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.green,
         ),
+        textTheme: Typography.englishLike2021
+            .fontFamily('MonaspaceKrypton')
+            .tint(Colors.black87),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Home'),

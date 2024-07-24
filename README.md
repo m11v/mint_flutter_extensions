@@ -104,3 +104,12 @@ The available styles are:
 * lineThrough
 * normal
 * tint(Color color, [ bool tintDecoration = true, ])
+### TextTheme
+To apply the color to the TextTheme, use:
+```dart
+textTheme.tint(Colors.red)
+```
+To apply the font family to the TextTheme, use:
+```dart
+textTheme.fontFamily('MonaspaceKrypton')
+```

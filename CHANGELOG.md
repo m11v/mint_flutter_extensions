@@ -10,3 +10,7 @@
 
 * Add extensions to get textStyles of textTheme from BuildContext.
 * Add extensions to change textStyles.
+
+## 0.2.0
+
+* Add extensions to set the color and font family to TextTheme.
