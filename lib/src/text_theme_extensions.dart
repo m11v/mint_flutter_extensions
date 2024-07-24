@@ -5,26 +5,31 @@ import 'text_style_extensions.dart';
 /// to the text styles in TextTheme like:
 /// `textTheme.tint(Colors.red)`
 extension TextThemeX on TextTheme {
-  TextTheme tint(Color color) {
+  /// Tint the color of each text style to the expected color.
+  TextTheme tint(
+    Color color, [
+    bool tintDecoration = true,
+  ]) {
     return TextTheme(
-      displayLarge: displayLarge?.tint(color),
-      displayMedium: displayMedium?.tint(color),
-      displaySmall: displaySmall?.tint(color),
-      headlineLarge: headlineLarge?.tint(color),
-      headlineMedium: headlineMedium?.tint(color),
-      headlineSmall: headlineSmall?.tint(color),
-      titleLarge: titleLarge?.tint(color),
-      titleMedium: titleMedium?.tint(color),
-      titleSmall: titleSmall?.tint(color),
-      bodyLarge: bodyLarge?.tint(color),
-      bodyMedium: bodyMedium?.tint(color),
-      bodySmall: bodySmall?.tint(color),
-      labelLarge: labelLarge?.tint(color),
-      labelMedium: labelMedium?.tint(color),
-      labelSmall: labelSmall?.tint(color),
+      displayLarge: displayLarge?.tint(color, tintDecoration),
+      displayMedium: displayMedium?.tint(color, tintDecoration),
+      displaySmall: displaySmall?.tint(color, tintDecoration),
+      headlineLarge: headlineLarge?.tint(color, tintDecoration),
+      headlineMedium: headlineMedium?.tint(color, tintDecoration),
+      headlineSmall: headlineSmall?.tint(color, tintDecoration),
+      titleLarge: titleLarge?.tint(color, tintDecoration),
+      titleMedium: titleMedium?.tint(color, tintDecoration),
+      titleSmall: titleSmall?.tint(color, tintDecoration),
+      bodyLarge: bodyLarge?.tint(color, tintDecoration),
+      bodyMedium: bodyMedium?.tint(color, tintDecoration),
+      bodySmall: bodySmall?.tint(color, tintDecoration),
+      labelLarge: labelLarge?.tint(color, tintDecoration),
+      labelMedium: labelMedium?.tint(color, tintDecoration),
+      labelSmall: labelSmall?.tint(color, tintDecoration),
     );
   }
 
+  /// Set the font family of each text style to the expected font family.
   TextTheme fontFamily(String fontFamily) {
     return TextTheme(
       displayLarge: displayLarge?.copyWith(fontFamily: fontFamily),
